@@ -11,6 +11,7 @@ each element is done for each node as well. So each array is calculated, which i
 complexity of the program is O(2N^2) which makes sense as for an adjaceny matrix implementation to find either the path
 or cost it is O(N^2) but since I am finding both it would be twice as complex.
 
+This program also assumes that the input file will be correct and does not have error handling for incorrect input files.
 To run the program it is the same procedure that was given in the HW3 assignment file
 first make sure that javac can be accessed by running the command set PATH=%PATH%;C:\Program Files\Java\version\bin where version is the version of java you are running.
 Next run javac LinkState.java makeing sure that you are in the directory where LinkState.java is located in
